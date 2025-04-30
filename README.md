@@ -14,7 +14,7 @@ This project is a deep learning-based solution for detecting whether a person is
 
 ## 🛠️ Technologies & Libraries
 
-- **Python 3.x**
+- **Python 3.10**
 - **TensorFlow & Keras** – for building and training the CNN model
 - **OpenCV** – for image processing (optional for real-time detection)
 - **Matplotlib** – for plotting graphs
