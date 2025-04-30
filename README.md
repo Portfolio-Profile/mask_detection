@@ -24,13 +24,6 @@ This project is a deep learning-based solution for detecting whether a person is
 
 ---
 
-## 📁 Project Structure
-
-mask_detection/ └── models/ ├── Mask_Detection.ipynb # Main Jupyter notebook with all code ├── mask_detector_model.keras # Trained model saved in Keras format # Optional result visualization or report └── .gitignore # Git ignore file for excluding sensitive files
-
-
----
-
 ## 📌 Description of Key Files
 
 - **`Mask_Detection.ipynb`**: Main notebook where the entire workflow is implemented – data loading, preprocessing, model training, and evaluation.
@@ -46,7 +39,6 @@ mask_detection/ └── models/ ├── Mask_Detection.ipynb # Main Jupyter 
 
 ```bash
 git clone https://github.com/Portfolio-Profile/mask_detection.git
-cd mask_detection/models
-pip install -r requirements.txt
+
 pip install tensorflow keras matplotlib numpy pandas opencv-python
 jupyter notebook Mask_Detection.ipynb
